@@ -6,7 +6,7 @@ const port = process.env.PORT || 5000;
 
 
 app.get('/', (req, res) => {
-  res.send('Hotel Management Server Ruuning...')
+  res.send('Hotel Management Server Running')
 })
 
 app.listen(port, () => {
