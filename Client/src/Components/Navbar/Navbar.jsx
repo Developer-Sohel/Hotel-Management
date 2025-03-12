@@ -9,8 +9,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className='container mx-auto lg:px-24 px-2'>
-      <div className="flex justify-between items-center py-4">
+    <div className='container mx-auto lg:px-24 px-2 shadow-sm'>
+      <div className="flex justify-between items-center py-2">
         <div>
           <a href="/" className="text-xl font-bold">YOUR <span className="text-blue-500">DOCKTOR</span></a>
         </div>
